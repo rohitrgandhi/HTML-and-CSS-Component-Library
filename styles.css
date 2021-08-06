@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color: #F9A826
+    --primary-color: #00B0FF;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -23,22 +23,20 @@ body{
 .link
 {
     text-decoration: none;
-    padding: 0rem 1rem;
-    color:black;
+    padding:.3rem 2rem;
+    color:white;
     font-weight: bold;
+    border-radius: 1rem;
 } 
 .link-primary
 {
-    color:black;
-    padding:.3rem 1rem;
-    background-color:#F9A826;
-    border-radius: 1rem;
+    color:white;
+    background-color:#00B0FF;    
 }
 .link-secondary
 {
-    color:#F9A826;
-    border-radius:1rem;
-    border: 1px solid var black;
+    color:#00B0FF;
+    background-color: white;
 }
 hr
 {
@@ -57,9 +55,9 @@ hr
 
 /** navigation **/
 .navigation{
-    background-color:#F9A826;
+    background-color:#00B0FF;
     padding: .4rem;
-    border-bottom-left-radius: 1rem;
+    border-radius: 1rem;
 }
 
 .navigation .nav-brand{
@@ -73,7 +71,7 @@ hr
 
 .navigation .link{
     text-align:right;
-    color:black;
+    color:white;
 }
 
 .navigation .link-active{
@@ -96,28 +94,39 @@ hr
 }
 
 .hero .hero-color{
-    color:#F9A826;
+    color:#00B0FF;
     font-weight:bold;
 }
 
 
 /** section **/
+.section{
+    text-align:center;
+    padding:2rem;
+}
  .section h1{
      text-align: center;
-     padding:2rem;
+     padding:3rem;
  }
 
+ .section h2{
+    text-align: center;
+    }
  .ow{
-    background-color:#E5E7EB
-    ;
+    background-color:#E5E7EB;
+    padding:2rem;
  }
 
  /** footer **/
 .footer{
-    color:black;
+    color:white;
     text-align:center;
-    background-color: #F9A826;
+    font-weight: 600px;
+    background-color: #00B0FF;
     padding:2rem 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    
 }
 
 .footer ul{
