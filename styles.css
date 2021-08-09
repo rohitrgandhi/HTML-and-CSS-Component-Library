@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color: #00B0FF;
+    --primary-color: #62DCD0;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -31,12 +31,19 @@ body{
 .link-primary
 {
     color:white;
-    background-color:#00B0FF;    
+    background-color:#62DCD0;    
 }
 .link-secondary
 {
-    color:#00B0FF;
+    color:#62DCD0;
     background-color: white;
+}
+.link-blog
+{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    text-align:right;
 }
 hr
 {
@@ -55,13 +62,13 @@ hr
 
 /** navigation **/
 .navigation{
-    background-color:#00B0FF;
+    background-color:#62DCD0;
     padding: .4rem;
     border-radius: 1rem;
+
 }
 
 .navigation .nav-brand{
-    font-weight:bold;
     font-size:1.1rem;
 }
 
@@ -75,7 +82,8 @@ hr
 }
 
 .navigation .link-active{
-    font-weight: bold;
+    font-weight: bolder;
+    background-color: black;
 }
 
 /** Header **/
@@ -87,6 +95,11 @@ hr
     display:block;
     margin:auto;
 }
+.hero .blog-img{
+    max-width:200px;
+    display:block;
+    margin:auto;
+}
 .hero .hero-header{
     text-align:center;
     color:
@@ -94,7 +107,7 @@ hr
 }
 
 .hero .hero-color{
-    color:#00B0FF;
+    color:#62DCD0;
     font-weight:bold;
 }
 
@@ -122,7 +135,7 @@ hr
     color:white;
     text-align:center;
     font-weight: 600px;
-    background-color: #00B0FF;
+    background-color: #62DCD0;
     padding:2rem 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
