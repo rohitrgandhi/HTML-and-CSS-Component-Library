@@ -19,6 +19,16 @@ body{
     margin: auto;
 }
 
+.container-projects{
+    max-width: 600px;
+    margin:auto;
+    text-align:center;
+}
+.container-blogs{
+    max-width: 750px;
+    margin:auto;
+}
+
 /** Links **/
 .link
 {
@@ -37,6 +47,11 @@ body{
 {
     color:#62DCD0;
     background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: .3rem;
+    padding:.3rem 2rem;
+    margin: 2rem;
 }
 .link-blog
 {
@@ -59,13 +74,29 @@ hr
     display: inline;
     padding: 0rem 0.5rem;
 }
+.link-active{
+    color:white;
+    background-color: black;
+}
+
+.mark
+{
+    font-size:1.5rem;
+    display:inline;
+    margin:1.5rem;
+}
+.mark-links{
+    font-size:1rem;
+    display:inline;
+    margin:1.5rem;
+    text-align:center;
+}
 
 /** navigation **/
 .navigation{
     background-color:#62DCD0;
     padding: .4rem;
     border-radius: 1rem;
-
 }
 
 .navigation .nav-brand{
@@ -86,20 +117,23 @@ hr
     background-color: black;
 }
 
+.navigation-projects{
+    background-color:#E5E7EB;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+
 /** Header **/
 .hero{
-    padding:2rem
+    padding:1rem
 }
 .hero .hero-img{
-    max-width:450px;
-    display:block;
-    margin:auto;
-}
-.hero .blog-img{
     max-width:200px;
     display:block;
     margin:auto;
 }
+
 .hero .hero-header{
     text-align:center;
     color:
@@ -109,6 +143,7 @@ hr
 .hero .hero-color{
     color:#62DCD0;
     font-weight:bold;
+    font-size: 3rem;
 }
 
 
@@ -124,10 +159,18 @@ hr
 
  .section h2{
     text-align: center;
+    padding:1rem;
     }
  .ow{
     background-color:#E5E7EB;
     padding:2rem;
+ }
+ .spacer
+ {
+    padding-block-end: 2rem;
+ }
+ .mark-color{
+    color:white;
  }
 
  /** footer **/
@@ -139,7 +182,6 @@ hr
     padding:2rem 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    
 }
 
 .footer ul{
