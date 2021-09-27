@@ -79,7 +79,15 @@ hr
     color:white;
     background-color: black;
 }
-
+.link-email{
+    text-decoration: none;
+    font-weight: bold;
+    padding:.3rem 2rem;
+    border-radius: 1rem;
+    color:black;
+    background-color: #E5E7EB;
+    align-content: center;
+}
 .mark
 {
     font-size:1.5rem;
@@ -101,8 +109,8 @@ hr
 }
 
 .navigation .nav-brand{
-    font-size:1.1rem;
-    color: white;
+    font-size:1.5rem;
+    color: #6B7280;
 }
 
 .navigation .nav-pills{
@@ -127,6 +135,7 @@ hr
 
 
 /** Header **/
+
 .hero{
     padding:1rem
 }
